@@ -6,6 +6,10 @@ class Circle:
     ar=(self.radius**2)*(self.pi)
     return ar
 
-  def circum(self):
+  def circumference(self):
     return (2*self.pi)*(self.radius)
+
+  def daimeter(self):
+      d=2*self.radius
+
       
